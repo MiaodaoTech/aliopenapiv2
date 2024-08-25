@@ -1,0 +1,40 @@
+{
+    "name": "miaodaotech/aliopenapiv2",
+    "version": "v1.0.1",
+    "description": "支付宝开放平台v2版本封装包",
+    "keywords": [
+        "openapitools",
+        "openapi-generator",
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://openapi-generator.tech",
+    "license": "unlicense",
+    "authors": [
+        {
+            "name": "OpenAPI-Generator contributors",
+            "homepage": "https://openapi-generator.tech"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-openssl":"*",
+        "ext-bcmath": "*",
+        "ext-dom": "*"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": { "Alipay\\OpenAPISDKV2\\" : "v2/aop/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Alipay\\OpenAPISDKV2\\Test\\" : "v2/aop/test/" }
+    }
+}
